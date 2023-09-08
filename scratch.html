@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Trader AI</title>
+    <link rel="stylesheet" href="/js/css.css">
+    <style>
+        .logo-img {
+            max-width: 200px;
+            margin: auto;
+            padding: 20px;
+            border: none;
+            text-align: center;
+
+          }
+        .btn {
+            cursor: pointer;
+            border: 1px solid rgba(129,129,129,0.69);
+            background-color: rgba(121,121,121,0.43);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+
+            color: #FFFFFF;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 32px;
+            margin-left: 4px;
+            margin-right: 4px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+	</style>
+</head>
+<body>
+
+<div id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="3456" height="510"></canvas></div>
+
+<div class="count-particles">
+	<img class="logo-img" src="logow.png" alt="logo">
+
+</div>
+
+<div class="row2">
+		<input type="button" class="btn" onclick="alert('Trader AI is at a capacity right now, please check back later');" value="Register">
+		<input type="button" class="btn" onclick="alert('To sign in, please use invitation link sent via email');" value="Log in">
+</div>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+<script src="/js/tk.js"></script>
+
+</body>
+</html>
